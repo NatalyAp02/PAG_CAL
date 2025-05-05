@@ -1,0 +1,49 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color:rgb(240, 240, 240);
+}
+  
+.container 
+{
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+  
+.grid 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+  
+.grid div 
+{
+    background-color: rgb(76, 175, 80);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    user-select: none;
+}
+  
+button 
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(33, 150, 243);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
